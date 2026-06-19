@@ -1,0 +1,26 @@
+{
+  "name": "workorders-agent-ui",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@primevue/themes": "^4.0.0",
+    "axios": "^1.7.7",
+    "exceljs": "^4.4.0",
+    "pinia": "^2.1.7",
+    "primeflex": "^3.3.1",
+    "primeicons": "^7.0.0",
+    "primevue": "^3.53.0",
+    "vue": "^3.4.0",
+    "vue-router": "^4.3.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.1.4",
+    "vite": "^5.4.8"
+  }
+}
