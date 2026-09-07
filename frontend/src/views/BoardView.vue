@@ -145,12 +145,14 @@ function onBoardScroll() {
 }
 
 const COLUMNS = [
-  { key: 'YA CERTIFICADOS',         label: 'Aprobados',          cssClass: 'board-col-cert' },
-  { key: 'PENDIENTES POR REVISION', label: 'Pend. por Revision', cssClass: 'board-col-rev' },
-  { key: 'DEVUELTOS',               label: 'Devueltos',           cssClass: 'board-col-dev' },
-  { key: 'POR HACER',               label: 'Por Hacer',           cssClass: 'board-col-todo' },
-  { key: 'SIN SUBIRSE',             label: 'Sin Subirse',         cssClass: 'board-col-sin' },
-  { key: 'CANCELADOS',              label: 'Cancelados',          cssClass: 'board-col-cancel' },
+  { key: 'YA CERTIFICADOS',           label: 'Aprobados',            cssClass: 'board-col-cert' },
+  { key: 'PENDIENTES POR CERTIFICAR', label: 'Pend. por Certificar', cssClass: 'board-col-pend' },
+  { key: 'PENDIENTES POR REVISION',   label: 'Pend. por Revision',   cssClass: 'board-col-rev' },
+  { key: 'DEVUELTOS',                 label: 'Devueltos',            cssClass: 'board-col-dev' },
+  { key: 'POR HACER',                 label: 'Por Hacer',            cssClass: 'board-col-todo' },
+  { key: 'PEND POR NUEVA VISITA',     label: 'Pend. Nueva Visita',   cssClass: 'board-col-nueva' },
+  { key: 'SIN SUBIRSE',               label: 'Sin Subirse',          cssClass: 'board-col-sin' },
+  { key: 'CANCELADOS',                label: 'Cancelados',           cssClass: 'board-col-cancel' },
 ]
 
 const totalClassified = computed(() =>
