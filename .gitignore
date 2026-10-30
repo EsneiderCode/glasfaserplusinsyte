@@ -25,3 +25,8 @@ Thumbs.db
 
 # Playwright MCP
 .playwright-mcp/
+
+# Keep credentials out of every environment variant (including nested apps).
+.env
+.env.*
+!.env.example
